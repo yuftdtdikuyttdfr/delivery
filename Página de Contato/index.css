@@ -1,0 +1,121 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #490505;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo principal da seção de contato */
+main {
+    padding: 2rem;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 6px 5px 5px black;;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background: #000000;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background: #4b4949;
+}
+
+/* Estilo das informações de contato */
+.contact-info {
+    margin-top: 1.5rem;
+}
+
+.contact-info h3 {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 10px 5px 5px black;;
+}
+
+.sombra{
+    box-shadow: 10px 5px 5px black;;
+}

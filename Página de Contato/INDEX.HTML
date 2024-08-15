@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="sombra">
+        <h1>kabukikitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Estamos aqui para ajudar! Preencha o formulário abaixo ou entre em contato através dos meios abaixo.</p>
+
+            <form action="submit_form.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Informações de Contato</h3>
+                <p><strong>Endereço:</strong> Avenida Rua das Flores, 123, Belo Horizonte, BH</p>
+                <p><strong>Telefone:</strong> (31) 98465-4271</p>
+                <p><strong>E-mail:</strong> oficial@kabukikitchen.com.br</p>
+                <p><strong>Instagram:</strong> 🍣🧡@KabukiKitchen🍣🧡</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 kabukikitchen. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
